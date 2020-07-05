@@ -15,13 +15,26 @@
 <body>
 
 
+  <div id='map' style='width: 400px; height: 300px;'></div>
+  
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZW1hbnNodSIsImEiOiJja2MxYm51d2EwZWI4MnB2dGNqNXk1amowIn0._GhY7C1S3tbc_w3ULJq3QQ';
+  var map = new mapboxgl.Map({
+      container: '<your HTML element id>',
+      style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+      center: [-74.5, 40], // starting position [lng, lat]
+      zoom: 9 // starting zoom
+  });
+  </script>
+
+
+
+
+
 
 
 {% block content %}{% endblock %}
-
-
-
 </body>
 
-<script src="hello/js/main.js"></script>
+
 </html>
