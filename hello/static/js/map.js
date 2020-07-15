@@ -8,3 +8,9 @@ var map = new mapboxgl.Map({
   center: [-90.257, 38.59], // starting position [lng, lat]
   zoom: 11, // starting zoom
 })
+
+testURL = '/data'
+
+d3.json(testURL, function (data) {
+  console.log(data)
+})
