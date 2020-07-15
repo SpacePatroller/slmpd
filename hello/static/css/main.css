@@ -1,0 +1,20 @@
+.h1 {
+  background-color: blueviolet;
+  font-family: monospace;
+
+}
+
+body {
+  padding: 100px;
+}
+
+.map {
+  padding: 50px;
+}
+
+#jumbotronMain {
+
+  font-style: italic;
+  border-radius: 1000px;
+
+}
